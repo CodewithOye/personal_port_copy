@@ -1,0 +1,23 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/structure": [
+      "default",
+      {
+        "list": "off"
+      }
+    ],
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off"
+      }
+    ],
+    "no-inline-styles": "off",
+    "axe/text-alternatives": "off",
+    "detect-css-reflows/paint": "off",
+    "detect-css-reflows/composite": "off"
+  }
+}
